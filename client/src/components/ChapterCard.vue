@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'ChapterCard',
@@ -58,7 +58,7 @@ export default {
       }
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 }
 </script>
 

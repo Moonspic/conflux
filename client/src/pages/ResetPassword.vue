@@ -32,7 +32,7 @@
 import validator from 'validator'
 import { Notify } from 'quasar'
 
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'ResetPassword',
@@ -68,7 +68,7 @@ export default {
       },
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 }
 </script>
 

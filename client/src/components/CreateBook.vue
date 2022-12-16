@@ -59,7 +59,7 @@
 import { Notify } from 'quasar'
 
 import { storage } from 'boot/storage'
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'BookCreate',
@@ -125,7 +125,7 @@ export default {
       },
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 }
 </script>
 

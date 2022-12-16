@@ -4,7 +4,7 @@
 import { mapActions } from 'vuex'
 import { Loading, LocalStorage, SessionStorage } from 'quasar'
 
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'Logout',
@@ -13,7 +13,7 @@ export default {
       ...mapActions(['user/clear', 'books/clear']),
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 
    async mounted() {
       Loading.show({ message: 'Closing session...' })

@@ -154,7 +154,7 @@
 import { mapActions, mapGetters } from 'vuex'
 import { copyToClipboard, openURL, Notify } from 'quasar'
 
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'BookSettings',
@@ -260,7 +260,7 @@ export default {
       },
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 
    watch: {
       $route: function() {

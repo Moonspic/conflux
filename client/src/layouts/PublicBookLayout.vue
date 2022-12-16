@@ -146,7 +146,7 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'BookLayout',
@@ -202,7 +202,7 @@ export default {
       },
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 
    watch: {
       $route: async function() {

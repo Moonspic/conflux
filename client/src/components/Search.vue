@@ -48,7 +48,7 @@
 
 <script>
 import { storage } from 'boot/storage'
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'Search',
@@ -85,7 +85,7 @@ export default {
       },
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 
    watch: {
       searchString: function(value) {

@@ -94,7 +94,7 @@
 
 <script>
 import { storage } from "boot/storage";
-import Core from "src/mixins/Core";
+import CoreComp from "src/mixins/Core";
 
 export default {
   name: "MainHeader",
@@ -113,7 +113,7 @@ export default {
     },
   },
 
-  mixins: [Core],
+  mixins: [CoreComp],
 
   components: {
     AlgoliaSearch: () => import("components/Search.vue"),

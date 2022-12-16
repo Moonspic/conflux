@@ -11,7 +11,7 @@
 
 <script>
 import { storage } from 'boot/storage'
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'App',
@@ -33,7 +33,7 @@ export default {
       },
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 
    async mounted() {
       // Anonymous Requests

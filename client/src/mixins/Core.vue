@@ -7,7 +7,7 @@ import { Notify } from 'quasar'
 import { storage } from 'boot/storage'
 
 export default {
-   name: 'Core',
+   name: 'CoreComp',
 
    data() {
       return {

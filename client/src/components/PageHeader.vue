@@ -94,7 +94,7 @@
 </template>
 
 <script>
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'PageHeader',
@@ -125,7 +125,7 @@ export default {
       },
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 
    components: {
       ProfileMenu: () => import('components/ProfileMenu.vue'),

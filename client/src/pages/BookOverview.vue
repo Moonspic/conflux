@@ -64,7 +64,7 @@
 <script>
 import { mapGetters } from 'vuex'
 
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'BookOverview',
@@ -115,7 +115,7 @@ export default {
       },
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 
    watch: {
       $route: function() {

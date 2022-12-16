@@ -28,7 +28,7 @@
 
 <script>
 import { version as client } from '../../../package.json'
-import Core from 'src/mixins/Core'
+import CoreComp from 'src/mixins/Core'
 
 export default {
    name: 'Anonymous',
@@ -45,7 +45,7 @@ export default {
       },
    },
 
-   mixins: [Core],
+   mixins: [CoreComp],
 }
 </script>
 
